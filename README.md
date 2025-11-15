@@ -4,6 +4,9 @@ Docker container which connects via UDP to a T-Smart water heater thermostat and
 
 **Note:** This is a maintained fork of the original [britkat1980/tsmart](https://github.com/britkat1980/tsmart) repository with bug fixes and improvements.
 
+## Changes in v0.10.2
+- Fixed compatibility with paho-mqtt 2.0+ library (callback API version)
+
 ## Changes in v0.10.1
 - Fixed temperature unit of measurement from `C` to `°C` for Home Assistant compatibility
 - Fixed device class capitalization from `Temperature` to `temperature`

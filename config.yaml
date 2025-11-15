@@ -1,6 +1,6 @@
 name:  "TSmart"
 description:  "UDP based control of the T-Smart water heater thermostats"
-version:  "0.10.1"
+version:  "0.10.2"
 image: ghcr.io/cpether/tsmart
 slug:  "tsmart"
 init:  true
