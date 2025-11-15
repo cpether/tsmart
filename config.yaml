@@ -1,13 +1,13 @@
 name:  "TSmart"
 description:  "UDP based control of the T-Smart water heater thermostats"
-version:  "0.9"
-image: britkat/tsmart
+version:  "0.10.1"
+image: ghcr.io/cpether/tsmart
 slug:  "tsmart"
 init:  true
 map:
   - config:rw
 boot:  auto
-url:  https://github.com/britkat1980/tsmart
+url:  https://github.com/cpether/tsmart
 legacy:  true
 arch: 
   - aarch64

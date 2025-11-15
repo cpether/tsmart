@@ -2,7 +2,7 @@ version: '3'
 services:
   tsmart:
     container_name: tsmart
-    image: britkat/tsmart:0.9
+    image: ghcr.io/cpether/tsmart:0.10.1
     restart: unless-stopped
     environment:
       - IP_Address=xx.xx.xx.xx

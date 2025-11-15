@@ -2,6 +2,12 @@
 
 Docker container which connects via UDP to a T-Smart water heater thermostat and integrates into Home Assistant via MQTT.
 
+**Note:** This is a maintained fork of the original [britkat1980/tsmart](https://github.com/britkat1980/tsmart) repository with bug fixes and improvements.
+
+## Changes in v0.10.1
+- Fixed temperature unit of measurement from `C` to `°C` for Home Assistant compatibility
+- Fixed device class capitalization from `Temperature` to `temperature`
+
 ## Installation
 
 ### Docker
@@ -16,12 +22,12 @@ TSmart entities should be added to Home Assistant automatically if you have MQTT
 
 Navigate to Settings->Addons->Addon Store
 
-* Click the triple dots top right and “Repositories”
-* Add: “https://github.com/britkat1980/tsmart”
+* Click the triple dots top right and "Repositories"
+* Add: "https://github.com/cpether/tsmart"
 * It will add TSmart as an addon for you to install
 * Install it then open the config tab and add the following info:
     * IP address of your TSmart
     * IP Address of the HA MQTT broker
     * add MQTT username and password if you use them
 * Save config and then start the addon
-* The Addon will create a Climate device which will allow you to set the mode (using “presets”) and the temp using the usual climate controls.
+* The Addon will create a Climate device which will allow you to set the mode (using "presets") and the temp using the usual climate controls.
