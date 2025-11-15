@@ -151,8 +151,8 @@ class HAMQTT():
                 tempObj['device_class']="Power"
                 tempObj['state_class']="measurement"
             if HAMQTT.entity_type[str(topic).split("/")[-1]][1]=="temperature":
-                tempObj['unit_of_meas']="C"
-                tempObj['device_class']="Temperature"
+                tempObj['unit_of_meas']="°C"
+                tempObj['device_class']="temperature"
             if HAMQTT.entity_type[str(topic).split("/")[-1]][1]=="voltage":
                 tempObj['unit_of_meas']="V"
                 tempObj['device_class']="Voltage"
