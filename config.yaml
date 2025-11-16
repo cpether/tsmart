@@ -22,7 +22,7 @@ options:
   Log_Level: "Error"
   Debug_File_Location: ""
   MQTT_Output: True
-  MQTT_Address: "core_mosquitto"
+  MQTT_Address: "localhost"
   MQTT_Username: ""
   MQTT_Password: ""
   MQTT_Topic: "TSmart"
